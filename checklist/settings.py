@@ -57,7 +57,7 @@ ROOT_URLCONF = 'checklist.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [/checklistapp/Templates/checklistapp/],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
