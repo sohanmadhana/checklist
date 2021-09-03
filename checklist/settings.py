@@ -160,3 +160,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # print(os.getcwd())
 print(BASE_DIR)
+django_heroku.settings(locals())
