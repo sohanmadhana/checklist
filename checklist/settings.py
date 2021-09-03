@@ -159,4 +159,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # print(os.getcwd())
-# print(BASE_DIR)
+print(BASE_DIR)
